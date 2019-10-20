@@ -90,5 +90,5 @@ nnoremap <silent> <unique> <Plug>SearchantStop :call <SID>Stop()<CR>
 nnoremap <silent> <unique> <Plug>SearchantToggle :call <SID>Toggle()<CR>
 
 if g:searchant_map_stop
-    nmap <unique> <C-C> <Plug>SearchantStop
+    nmap <unique> <C-P> <Plug>SearchantStop
 endif
